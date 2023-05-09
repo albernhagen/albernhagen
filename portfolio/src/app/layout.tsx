@@ -1,5 +1,11 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import React from "react";
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Andy Bernhagen</title>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
