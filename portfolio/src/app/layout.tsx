@@ -1,6 +1,9 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import React from "react";
+import "@fontsource/cormorant-garamond";
+import "@fontsource/roboto-condensed";
+import "@fontsource-variable/work-sans";
 
 const inter = Inter({ subsets: ["latin"] });
 
