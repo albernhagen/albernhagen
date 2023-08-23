@@ -4,7 +4,6 @@ import React from "react";
 import "@fontsource/cormorant-garamond";
 import "@fontsource/roboto-condensed";
 import "@fontsource-variable/work-sans";
-import { SiteHeader } from "@/components/site-header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,12 +23,7 @@ export default function RootLayout({
         <title>Andy Bernhagen</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </head>
-      <body className={inter.className}>
-        <div className="relative flex min-h-screen flex-col">
-          <SiteHeader />
-          <div className="flex-1">{children}</div>
-        </div>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
