@@ -2,7 +2,6 @@
 
 import { IKContext, IKImage } from "imagekitio-react";
 import { Button } from "@/components/ui/button";
-import "regenerator-runtime/runtime";
 import { useState } from "react";
 
 export default function Home() {
